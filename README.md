@@ -78,7 +78,7 @@ int main() {
     double* A = new double[N * N];
     double* B = new double[N * N];
     double* C = new double[N * N];
-    double* C_ref = new double[N * N]; // Матрица для эталонного результата
+    double* C_ref = new double[N * N]; 
 
     fill_matrix(A);
     fill_matrix(B);
